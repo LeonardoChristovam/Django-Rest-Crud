@@ -8,6 +8,7 @@ class PessoaSerializer(serializers.ModelSerializer):
         fields = [
             'id',
             'nome',
+            'data_nasc',
             'telefone',
             'email',
             'sexo',

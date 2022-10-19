@@ -17,6 +17,12 @@ class Pessoa(models.Model):
         blank=False
     )
 
+    data_nasc = models.CharField(
+        max_length=10,
+        null=False,
+        blank=False,
+    )
+
     telefone = models.CharField(
         max_length=15,
         null=False,
